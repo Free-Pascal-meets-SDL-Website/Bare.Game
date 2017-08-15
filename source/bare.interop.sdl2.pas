@@ -22,7 +22,7 @@ interface
     {$define libsdl2 := external 'libSDL2.so'}
   {$endif}
   {$ifdef windows}
-    {$define libsdl2 := external 'libSDL2.dll'}
+    {$define libsdl2 := external 'SDL2.dll'}
   {$endif}
 {$endif}
 {$packrecords c}
